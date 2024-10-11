@@ -16,10 +16,10 @@ GREEN = (0, 255, 0)
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("StarFox Clone")
 
-# Load images
-player_img = pygame.image.load("static/images/player_ship.png").convert_alpha()
-enemy_img = pygame.image.load("enemy_ship.png").convert_alpha()
-background_img = pygame.image.load("pixel_space.png").convert_alpha()
+# Load imagesGame\static\images\player_ship.png
+player_img = pygame.image.load("Game\static\images\player_ship.png").convert_alpha()
+enemy_img = pygame.image.load("Game\static\images\enemy_ship.png").convert_alpha()
+background_img = pygame.image.load("Game\static\images\pixel_space.png").convert_alpha()
 
 # Player class
 class Player(pygame.sprite.Sprite):
